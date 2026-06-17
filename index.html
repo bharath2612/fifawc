@@ -277,7 +277,7 @@ footer a{color:var(--ink-dim)}
       <h1><span class="wc">WC26</span><span class="slash"> // </span>ROAD TO METLIFE</h1>
       <div class="hd-sub">FIFA WORLD CUP 2026 · USA / CANADA / MEXICO · <b>48 TEAMS</b> · <b>104 MATCHES</b> · JUN 11 → JUL 19 · FINAL: METLIFE STADIUM, NY/NJ</div>
     </div>
-    <div class="live-chip"><span class="live-dot"></span>TOURNAMENT LIVE — MD1</div>
+    <div class="live-chip"><span class="live-dot"></span>LIVE · GROUP STAGE · UPDATED JUN 17</div>
   </div>
   <nav>
     <button class="tab active" data-view="matches">Matches</button>
@@ -337,8 +337,8 @@ footer a{color:var(--ink-dim)}
 </main>
 
 <footer>
-  DATA verified 2026-06-12 against: Wikipedia (2026 FIFA World Cup group &amp; knockout-stage pages), FIFA match-centre &amp; official match schedule, FIFA Regulations Annex C (third-place allocation), cross-checked vs ESPN / Sky Sports / CBS.
-  Results so far: M1 Mexico 2–0 South Africa · M2 South Korea 2–1 Czech Republic.<br>
+  DATA verified 2026-06-17 against: Wikipedia (2026 FIFA World Cup group &amp; knockout-stage pages), FIFA match-centre &amp; official match schedule, FIFA Regulations Annex C (third-place allocation), cross-checked vs ESPN / Sky Sports / Yahoo.
+  Results in: matches 1–20 final (through Jun 16). M21–M24 kick off Jun 17. Standout results: USA 4–1 Paraguay · Germany 7–1 Curaçao · Sweden 5–1 Tunisia · Argentina 3–0 Algeria (Messi hat-trick) · France 3–1 Senegal · Norway 4–1 Iraq · Australia 2–0 Türkiye.<br>
   TO UPDATE SCORES: edit the <span class="mono">hs / as</span> (and <span class="mono">pens</span> for shootouts) fields inside <span class="mono">DATA.matches</span> in this file — standings, bracket projections and paths recompute automatically.
   Kickoff times are stadium-local. Third-place R32 assignments depend on FIFA Annex C (which 8 of 12 thirds qualify) — possible entry points are shown per team.
 </footer>
@@ -379,24 +379,24 @@ const DATA = { matches: [
 // ---- GROUP STAGE (matches 1–72). hs/as = result if played. ----
 {n:1, st:"G",g:"A",d:"2026-06-11",t:"13:00",v:"Estadio Azteca",c:"Mexico City",h:"Mexico",a:"South Africa",hs:2,as:0},
 {n:2, st:"G",g:"A",d:"2026-06-11",t:"20:00",v:"Estadio Akron",c:"Guadalajara",h:"South Korea",a:"Czech Republic",hs:2,as:1},
-{n:3, st:"G",g:"B",d:"2026-06-12",t:"15:00",v:"BMO Field",c:"Toronto",h:"Canada",a:"Bosnia and Herzegovina",hs:null,as:null},
-{n:4, st:"G",g:"D",d:"2026-06-12",t:"18:00",v:"SoFi Stadium",c:"Los Angeles",h:"United States",a:"Paraguay",hs:null,as:null},
-{n:5, st:"G",g:"C",d:"2026-06-13",t:"21:00",v:"Gillette Stadium",c:"Boston",h:"Haiti",a:"Scotland",hs:null,as:null},
-{n:6, st:"G",g:"D",d:"2026-06-13",t:"21:00",v:"BC Place",c:"Vancouver",h:"Australia",a:"Turkey",hs:null,as:null},
-{n:7, st:"G",g:"C",d:"2026-06-13",t:"18:00",v:"MetLife Stadium",c:"New York/NJ",h:"Brazil",a:"Morocco",hs:null,as:null},
-{n:8, st:"G",g:"B",d:"2026-06-13",t:"12:00",v:"Levi's Stadium",c:"SF Bay Area",h:"Qatar",a:"Switzerland",hs:null,as:null},
-{n:9, st:"G",g:"E",d:"2026-06-14",t:"19:00",v:"Lincoln Financial Field",c:"Philadelphia",h:"Ivory Coast",a:"Ecuador",hs:null,as:null},
-{n:10,st:"G",g:"E",d:"2026-06-14",t:"12:00",v:"NRG Stadium",c:"Houston",h:"Germany",a:"Curaçao",hs:null,as:null},
-{n:11,st:"G",g:"F",d:"2026-06-14",t:"15:00",v:"AT&T Stadium",c:"Dallas",h:"Netherlands",a:"Japan",hs:null,as:null},
-{n:12,st:"G",g:"F",d:"2026-06-14",t:"20:00",v:"Estadio BBVA",c:"Monterrey",h:"Sweden",a:"Tunisia",hs:null,as:null},
-{n:13,st:"G",g:"H",d:"2026-06-15",t:"18:00",v:"Hard Rock Stadium",c:"Miami",h:"Saudi Arabia",a:"Uruguay",hs:null,as:null},
-{n:14,st:"G",g:"H",d:"2026-06-15",t:"12:00",v:"Mercedes-Benz Stadium",c:"Atlanta",h:"Spain",a:"Cape Verde",hs:null,as:null},
-{n:15,st:"G",g:"G",d:"2026-06-15",t:"18:00",v:"SoFi Stadium",c:"Los Angeles",h:"Iran",a:"New Zealand",hs:null,as:null},
-{n:16,st:"G",g:"G",d:"2026-06-15",t:"12:00",v:"Lumen Field",c:"Seattle",h:"Belgium",a:"Egypt",hs:null,as:null},
-{n:17,st:"G",g:"I",d:"2026-06-16",t:"15:00",v:"MetLife Stadium",c:"New York/NJ",h:"France",a:"Senegal",hs:null,as:null},
-{n:18,st:"G",g:"I",d:"2026-06-16",t:"18:00",v:"Gillette Stadium",c:"Boston",h:"Iraq",a:"Norway",hs:null,as:null},
-{n:19,st:"G",g:"J",d:"2026-06-16",t:"20:00",v:"Arrowhead Stadium",c:"Kansas City",h:"Argentina",a:"Algeria",hs:null,as:null},
-{n:20,st:"G",g:"J",d:"2026-06-16",t:"21:00",v:"Levi's Stadium",c:"SF Bay Area",h:"Austria",a:"Jordan",hs:null,as:null},
+{n:3, st:"G",g:"B",d:"2026-06-12",t:"15:00",v:"BMO Field",c:"Toronto",h:"Canada",a:"Bosnia and Herzegovina",hs:1,as:1},
+{n:4, st:"G",g:"D",d:"2026-06-12",t:"18:00",v:"SoFi Stadium",c:"Los Angeles",h:"United States",a:"Paraguay",hs:4,as:1},
+{n:5, st:"G",g:"C",d:"2026-06-13",t:"21:00",v:"Gillette Stadium",c:"Boston",h:"Haiti",a:"Scotland",hs:0,as:1},
+{n:6, st:"G",g:"D",d:"2026-06-13",t:"21:00",v:"BC Place",c:"Vancouver",h:"Australia",a:"Turkey",hs:2,as:0},
+{n:7, st:"G",g:"C",d:"2026-06-13",t:"18:00",v:"MetLife Stadium",c:"New York/NJ",h:"Brazil",a:"Morocco",hs:1,as:1},
+{n:8, st:"G",g:"B",d:"2026-06-13",t:"12:00",v:"Levi's Stadium",c:"SF Bay Area",h:"Qatar",a:"Switzerland",hs:1,as:1},
+{n:9, st:"G",g:"E",d:"2026-06-14",t:"19:00",v:"Lincoln Financial Field",c:"Philadelphia",h:"Ivory Coast",a:"Ecuador",hs:1,as:0},
+{n:10,st:"G",g:"E",d:"2026-06-14",t:"12:00",v:"NRG Stadium",c:"Houston",h:"Germany",a:"Curaçao",hs:7,as:1},
+{n:11,st:"G",g:"F",d:"2026-06-14",t:"15:00",v:"AT&T Stadium",c:"Dallas",h:"Netherlands",a:"Japan",hs:2,as:2},
+{n:12,st:"G",g:"F",d:"2026-06-14",t:"20:00",v:"Estadio BBVA",c:"Monterrey",h:"Sweden",a:"Tunisia",hs:5,as:1},
+{n:13,st:"G",g:"H",d:"2026-06-15",t:"18:00",v:"Hard Rock Stadium",c:"Miami",h:"Saudi Arabia",a:"Uruguay",hs:1,as:1},
+{n:14,st:"G",g:"H",d:"2026-06-15",t:"12:00",v:"Mercedes-Benz Stadium",c:"Atlanta",h:"Spain",a:"Cape Verde",hs:0,as:0},
+{n:15,st:"G",g:"G",d:"2026-06-15",t:"18:00",v:"SoFi Stadium",c:"Los Angeles",h:"Iran",a:"New Zealand",hs:2,as:2},
+{n:16,st:"G",g:"G",d:"2026-06-15",t:"12:00",v:"Lumen Field",c:"Seattle",h:"Belgium",a:"Egypt",hs:1,as:1},
+{n:17,st:"G",g:"I",d:"2026-06-16",t:"15:00",v:"MetLife Stadium",c:"New York/NJ",h:"France",a:"Senegal",hs:3,as:1},
+{n:18,st:"G",g:"I",d:"2026-06-16",t:"18:00",v:"Gillette Stadium",c:"Boston",h:"Iraq",a:"Norway",hs:1,as:4},
+{n:19,st:"G",g:"J",d:"2026-06-16",t:"20:00",v:"Arrowhead Stadium",c:"Kansas City",h:"Argentina",a:"Algeria",hs:3,as:0},
+{n:20,st:"G",g:"J",d:"2026-06-16",t:"21:00",v:"Levi's Stadium",c:"SF Bay Area",h:"Austria",a:"Jordan",hs:1,as:1},
 {n:21,st:"G",g:"L",d:"2026-06-17",t:"19:00",v:"BMO Field",c:"Toronto",h:"Ghana",a:"Panama",hs:null,as:null},
 {n:22,st:"G",g:"L",d:"2026-06-17",t:"15:00",v:"AT&T Stadium",c:"Dallas",h:"England",a:"Croatia",hs:null,as:null},
 {n:23,st:"G",g:"K",d:"2026-06-17",t:"12:00",v:"NRG Stadium",c:"Houston",h:"Portugal",a:"DR Congo",hs:null,as:null},
